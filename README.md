@@ -53,6 +53,7 @@
   # ID des rôles à retirer/ajouter (optionnel)
   ROLE_ID_OLD=987654321098765432  # Rôle à retirer après vérification (ex: "Non vérifié")
   ROLE_ID_NEW=123456789012345678  # Rôle à ajouter après vérification (ex: "Membre")
-  ROLE_ID=1234567891011121314 # Rôle utilisé pour vérifier si le membre est déjà vérifié```
+  ROLE_ID=1234567891011121314 # Rôle utilisé pour vérifier si le membre est déjà vérifié
+```
 
 4.
