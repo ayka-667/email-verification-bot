@@ -1,7 +1,7 @@
 # 🔐 Discord Email Verification Bot
-**[Français]** Un bot Discord open-source pour vérifier les utilisateurs via un **code envoyé par email** (Gmail, Outlook, etc.). Idéal pour sécuriser l'accès à ton serveur !
+**[Français]** Un bot Discord open-source pour vérifier les utilisateurs via un **code envoyé par email** (Gmail, Outlook, etc.). Idéal pour sécuriser l'accès à ton serveur ! ( pour l'instant uniquement pour GMAIL)
 
-**[English]** An open-source Discord bot to verify users via a **6-digit code sent by email**. Perfect for securing access to your server!
+**[English]** An open-source Discord bot to verify users via a **6-digit code sent by email**. Perfect for securing access to your server!( for now only for Gmail )
 
 ---
 
