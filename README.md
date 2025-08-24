@@ -7,10 +7,15 @@
 
 ## 📌 **Fonctionnalités**
 ✅ **Vérification par email** : Envoie un code unique à l'utilisateur.
+
 ✅ **Système de rôles** : Ajoute/retire automatiquement des rôles après vérification.
+
 ✅ **Protection anti-spam** : Cooldown de 30 secondes pour éviter les abus.
+
 ✅ **Interface intuitive** : Modal Discord pour saisir le code.
+
 ✅ **Personnalisable** : Modèle HTML de l'email modifiable, regex pour les emails, etc.
+
 ✅ **Compatibilité** : Fonctionne avec n'importe quel service email (Gmail, Outlook, etc.).
 
 ---
