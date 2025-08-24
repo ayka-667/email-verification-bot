@@ -56,4 +56,7 @@
   ROLE_ID=1234567891011121314 # Rôle utilisé pour vérifier si le membre est déjà vérifié
 ```
 
-4.
+4. **Lance le bot** :
+   ```node index.js```
+
+## 🛠 **Personnalisation**
