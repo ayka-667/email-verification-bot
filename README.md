@@ -56,7 +56,56 @@
   ROLE_ID=1234567891011121314 # Rôle utilisé pour vérifier si le membre est déjà vérifié
 ```
 
-4. **Lance le bot** :
-   ```node index.js```
+Lance le bot:
+```bash
+node index.js
+```
+
+---
 
 ## 🛠 **Personnalisation**
+
+### **1. Modifier le modèle d'email**
+Le template HTML est dans `index.js` (ligne ~10):
+```html
+<div class="code">{{CODE}}</div>
+```
+
+### **2. Changer le regex pour les emails**
+Par défaut (Gmail uniquement):
+```javascript
+const emailRegex = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+```
+
+Pour tous les emails:
+```javascript
+const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+```
+
+### **3. Ajuster le cooldown**
+Modifie la durée (en ms):
+```javascript
+if (lastUsed && now - lastUsed < 60000) { ... } // 60000ms = 60s
+```
+
+---
+
+## ⚠️ **Problèmes courants**
+
+| Problème               | Solution |
+|------------------------|----------|
+| Email non envoyé       | Vérifie `EMAIL_USER` et `EMAIL_PASS` dans `.env` |
+| Erreur "Invalid email"  | Modifie le regex si tu veux accepter d'autres domaines |
+| Bot ne répond pas      | Vérifie le token et les permissions |
+| Rôles non mis à jour   | Vérifie les `ROLE_ID` et les permissions du bot |
+
+---
+
+## 🤝 **Contribuer**
+1. Fork le dépôt
+2. Crée une branche (`git checkout -b fonctionnalite-exemple`)
+3. Commit tes changements
+4. Push (`git push origin fonctionnalite-exemple`)
+5. Ouvre une Pull Request
+
+---
