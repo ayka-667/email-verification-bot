@@ -35,8 +35,8 @@
 ### **2️⃣ Configuration**
 1. **Clone le dépôt** :
    ```bash
-   git clone https://github.com/ton-utilisateur/discord-email-verification-bot.git
-   cd discord-email-verification-bot```
+   git clone https://github.com/ayka-667/email-verification-bot.git
+   cd email-verification-bot```
 
 2. **Installe les dépendances** :
    ```npm install discord.js nodemailer dotenv```
